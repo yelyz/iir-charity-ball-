@@ -1,0 +1,115 @@
+.biggest-container {
+  background-color: #fdf5e5;
+  color: #2a3d63;
+}
+.big-container {
+  max-width: 70%;
+  background-color: #fdf5e5;
+  display: block;
+  margin: 0 auto;
+}
+
+img.header {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.programm {
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.row {
+  justify-content: center;
+}
+.program-icon {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+.programm-listing {
+  font-family: "Cormorant SC", serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.programm-timing {
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+}
+
+.debutants {
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.couple-name {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.debutants-video-cs {
+  max-width: 100%;
+  border: 1px solid #6b7c93;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #9fadc0;
+  display: block;
+  margin: 0 auto;
+}
+
+.partners {
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.partners-logos {
+  max-width: 100%;
+}
+
+.buy-ticket-button {
+  width: fit-content;
+  display: block;
+  margin: 50px auto;
+  padding: 15px 25px;
+  font-family: "Cormorant SC", serif;
+  font-size: 25px;
+  background-color: #2a3d63;
+  border: 1px solid #2a3d63;
+  border-radius: 35px;
+  text-decoration: none;
+  color: #fdf5e5;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px #9fadc0;
+  transition: ease-in-out 2ms;
+}
+
+.buy-ticket-button:hover {
+  color: #2a3d63;
+  background-color: #fdf5e5;
+  cursor: pointer;
+}
+
+.socials-container {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.socials-icon {
+  width: 60px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
