@@ -1,5 +1,6 @@
 .biggest-container {
-  background-color: #fdf5e5;
+  background-image: url(background.png);
+  background-size: contain;
   color: #2a3d63;
 }
 .big-container {
@@ -13,6 +14,7 @@ img.header {
   max-width: 100%;
   display: block;
   margin: auto;
+  border-radius: 30px;
 }
 .programm {
   font-family: "Cormorant SC", serif;
@@ -112,4 +114,127 @@ img.header {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: 1061px) {
+  .couple-name {
+    font-size: 25px;
+  }
+  .programm-listing {
+    font-size: 20px;
+  }
+
+  .programm-timing {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .first-in-row {
+    margin-bottom: 35px;
+  }
+  .biggest-container {
+    background-color: #fdf5e5;
+    background-image: none;
+    width: 100%;
+  }
+  .big-container {
+    max-width: 90%;
+  }
+
+  .programm-listing {
+    font-size: 18px;
+  }
+
+  .programm-timing {
+    font-size: 18px;
+  }
+
+  .programm {
+    font-size: 32px;
+  }
+
+  .debutants {
+    font-size: 32px;
+  }
+
+  .couple-name {
+    font-size: 28px;
+  }
+
+  .partners {
+    font-size: 32px;
+  }
+
+  .debutants-container {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .couple-name {
+    font-size: 22px;
+  }
+
+  .biggest-container {
+    background-color: #fdf5e5;
+    background-image: none;
+    width: 100%;
+  }
+  .big-container {
+    max-width: 90%;
+  }
+
+  .programm-listing {
+    font-size: 15px;
+  }
+
+  .programm-timing {
+    font-size: 15px;
+  }
+
+  .debutants-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .biggest-container {
+    background-color: #fdf5e5;
+    background-image: none;
+    width: 100%;
+  }
+  .big-container {
+    max-width: 100%;
+  }
+  .program-icon {
+    height: 30px;
+  }
+
+  .programm-listing {
+    font-size: 12px;
+  }
+
+  .programm-timing {
+    font-size: 12px;
+  }
+  .programm {
+    font-size: 20px;
+  }
+
+  .debutants {
+    font-size: 20px;
+  }
+
+  .couple-name {
+    font-size: 18px;
+  }
+
+  .partners {
+    font-size: 20px;
+  }
+
+  .debutants-container {
+    max-width: 90%;
+  }
 }
