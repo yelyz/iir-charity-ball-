@@ -105,13 +105,15 @@ img.header {
   cursor: pointer;
 }
 
-.socials-container {
-  margin-top: 30px;
-  padding-bottom: 50px;
+.socials-text {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .socials-icon {
   width: 60px;
-  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -169,6 +171,9 @@ img.header {
   .debutants-container {
     max-width: 80%;
   }
+  .socials-text {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -196,6 +201,9 @@ img.header {
   .debutants-container {
     max-width: 90%;
   }
+  .buy-ticket-button {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -206,6 +214,12 @@ img.header {
   }
   .big-container {
     max-width: 100%;
+  }
+  img.header {
+    border-radius: 0px;
+  }
+  .programm {
+    margin-top: 35px;
   }
   .program-icon {
     height: 30px;
@@ -236,5 +250,14 @@ img.header {
 
   .debutants-container {
     max-width: 90%;
+  }
+  .socials-icon {
+    width: 40px;
+  }
+  .socials-text {
+    font-size: 20px;
+  }
+  .buy-ticket-button {
+    font-size: 18px;
   }
 }
