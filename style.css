@@ -63,7 +63,7 @@ img.header {
 
 .debutants-video-cs {
   max-width: 100%;
-  border: 1px solid #6b7c93;
+  border: 1px solid #021870;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #9fadc0;
   display: block;
@@ -218,9 +218,10 @@ img.header {
   }
   img.header {
     border-radius: 0px;
+    content: url(header-mobile.png);
   }
   .programm {
-    margin-top: 35px;
+    margin-top: 30px;
   }
   .program-icon {
     height: 30px;
@@ -239,6 +240,7 @@ img.header {
 
   .debutants {
     font-size: 20px;
+    margin-top: 30px;
   }
 
   .couple-name {
