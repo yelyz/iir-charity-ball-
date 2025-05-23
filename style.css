@@ -44,7 +44,31 @@ img.header {
   font-family: "Great Vibes", cursive;
   font-size: 20px;
 }
+.map {
+  font-family: "Cormorant SC", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.desktop-map {
+  max-width: 100%;
+  border-radius: 15px;
+}
 
+.mobile-map {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.legend-container {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
 .debutants {
   font-family: "Cormorant SC", serif;
   font-weight: 700;
@@ -136,6 +160,9 @@ img.header {
   }
 
   .programm-timing {
+    font-size: 20px;
+  }
+  .legend-container {
     font-size: 20px;
   }
 }
@@ -270,5 +297,11 @@ img.header {
   }
   .buy-ticket-button {
     font-size: 18px;
+  }
+  .legend-container {
+    font-size: 15px;
+  }
+  .mobile-map {
+    border-radius: 0px;
   }
 }
