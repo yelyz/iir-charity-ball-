@@ -55,6 +55,7 @@ img.header {
 .desktop-map {
   max-width: 100%;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px #9fadc0;
 }
 
 .mobile-map {
